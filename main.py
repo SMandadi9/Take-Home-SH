@@ -80,7 +80,7 @@ def email_alert(id, time_now): # sends an email regarding alert for ID at TIME
 
 def main():
 
-    poll_status(60, 60)
+    poll_status(60, 60) # polls every 60 seconds for 60 minutes
 
 
 main()
